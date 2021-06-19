@@ -12,6 +12,11 @@ body {
   background-color: #e0e0e0;
 }
 
+[dir=rtl] body{
+    background-color: #e0e0e0;
+    font-family: sans-serif;
+}
+
 /* Overall Page Structure */
 
 #topbar {
@@ -217,15 +222,18 @@ body {
 }
 [dir=rtl] #input {
   right: 10px; left: 85px;
+  font-family: sans-serif;
 }
 
 [dir=rtl] #input .CodeMirror {
   direction: rtl;
+  font-family: sans-serif;
 }
 
 [dir=rtl] #input textarea {
   direction: rtl;
   padding-right: 20px;
+  font-family: sans-serif;
 }
 
 
