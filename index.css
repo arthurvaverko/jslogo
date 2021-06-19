@@ -126,6 +126,16 @@ body {
   padding: 2px;
   background-color: #eeeeee;
 }
+
+[dir=rtl] .snippet pre {
+  white-space: pre-wrap;
+  margin-top: 0px; margin-bottom: 5px;
+  padding: 2px;
+  background-color: #eeeeee;
+  font-family: sans-serif;
+}
+
+
 .snippet pre:hover {
   background-color: white;
 }
