@@ -219,7 +219,7 @@ body {
   right: 10px; left: 85px;
 }
 
-[dir=rtl] #input div {
+[dir=rtl] #input .CodeMirror {
   direction: rtl;
 }
 
