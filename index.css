@@ -219,6 +219,12 @@ body {
   right: 10px; left: 85px;
 }
 
+[dir=rtl] #input textarea {
+  direction: rtl;
+  padding-right: 20px;
+}
+
+
 
 #logo-cm-multi-line,
 #logo-cm-single-line,
